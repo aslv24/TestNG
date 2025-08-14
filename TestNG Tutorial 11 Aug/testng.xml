@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FB_Suite">
+  <test name="FB_Test">
+    <classes>
+      <class name="com.testng.basics.FaceBook">
+      <methods>
+      <exclude name="verifyTitle"></exclude>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+</suite> 
+
+

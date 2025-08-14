@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FB_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FB_Test(failed)">
+    <classes>
+      <class name="com.testng.basics.FaceBook">
+        <methods>
+          <include name="verifyLinksCount"/>
+          <include name="verifyLinks"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testng.basics.FaceBook -->
+    </classes>
+  </test> <!-- FB_Test(failed) -->
+</suite> <!-- Failed suite [FB_Suite] -->
