@@ -1,59 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-14T17:51:53 IST" name="Suite" finished-at="2025-08-14T17:52:00 IST" duration-ms="6448">
+  <suite started-at="2025-08-29T17:40:10 IST" name="Default suite" finished-at="2025-08-29T17:40:18 IST" duration-ms="8233">
     <groups>
-      <group name="all">
-        <method signature="Groups.verifyLinks()[pri:4, instance:com.testng.basics.Groups@222545dc]" name="verifyLinks" class="com.testng.basics.Groups"/>
-        <method signature="Groups.verifyLinksCount()[pri:3, instance:com.testng.basics.Groups@222545dc]" name="verifyLinksCount" class="com.testng.basics.Groups"/>
-        <method signature="Groups.verifyTitle()[pri:1, instance:com.testng.basics.Groups@222545dc]" name="verifyTitle" class="com.testng.basics.Groups"/>
-        <method signature="Groups.verifyUrl()[pri:2, instance:com.testng.basics.Groups@222545dc]" name="verifyUrl" class="com.testng.basics.Groups"/>
-        <method signature="Groups.verifyLogin()[pri:5, instance:com.testng.basics.Groups@222545dc]" name="verifyLogin" class="com.testng.basics.Groups"/>
-      </group> <!-- all -->
-      <group name="regression">
-        <method signature="Groups.verifyLogin()[pri:5, instance:com.testng.basics.Groups@222545dc]" name="verifyLogin" class="com.testng.basics.Groups"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="Groups.verifyTitle()[pri:1, instance:com.testng.basics.Groups@222545dc]" name="verifyTitle" class="com.testng.basics.Groups"/>
-        <method signature="Groups.verifyUrl()[pri:2, instance:com.testng.basics.Groups@222545dc]" name="verifyUrl" class="com.testng.basics.Groups"/>
-      </group> <!-- smoke -->
-      <group name="sanity">
-        <method signature="Groups.verifyLinks()[pri:4, instance:com.testng.basics.Groups@222545dc]" name="verifyLinks" class="com.testng.basics.Groups"/>
-        <method signature="Groups.verifyLinksCount()[pri:3, instance:com.testng.basics.Groups@222545dc]" name="verifyLinksCount" class="com.testng.basics.Groups"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-08-14T17:51:53 IST" name="Test" finished-at="2025-08-14T17:52:00 IST" duration-ms="6448">
-      <class name="com.testng.basics.Groups">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.basics.Groups@222545dc]" started-at="2025-08-14T17:51:53 IST" name="setup" finished-at="2025-08-14T17:51:58 IST" duration-ms="4309" status="PASS">
+    <test started-at="2025-08-29T17:40:10 IST" name="Default test" finished-at="2025-08-29T17:40:18 IST" duration-ms="8233">
+      <class name="com.testng.task.TaskOrangeHRM">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testng.task.TaskOrangeHRM@245b4bdc]" started-at="2025-08-29T17:40:10 IST" name="setUp" finished-at="2025-08-29T17:40:15 IST" duration-ms="5597" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyTitle()[pri:1, instance:com.testng.basics.Groups@222545dc]" started-at="2025-08-14T17:51:58 IST" name="verifyTitle" description="This test for printing webpage title" finished-at="2025-08-14T17:51:58 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method signature="verifyUrl()[pri:2, instance:com.testng.basics.Groups@222545dc]" started-at="2025-08-14T17:51:58 IST" name="verifyUrl" description="This test for printing webpage url" finished-at="2025-08-14T17:51:58 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUrl -->
-        <test-method signature="verifyLinks()[pri:4, instance:com.testng.basics.Groups@222545dc]" started-at="2025-08-14T17:51:58 IST" name="verifyLinks" description="This test for printing webpage links" finished-at="2025-08-14T17:51:59 IST" duration-ms="1550" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLinks -->
-        <test-method signature="verifyLinksCount()[pri:3, instance:com.testng.basics.Groups@222545dc]" started-at="2025-08-14T17:51:59 IST" name="verifyLinksCount" description="This test for printing webpage links count" finished-at="2025-08-14T17:51:59 IST" depends-on-methods="com.testng.basics.Groups.verifyLinks" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLinksCount -->
-        <test-method signature="verifyLogin()[pri:5, instance:com.testng.basics.Groups@222545dc]" started-at="2025-08-14T17:51:59 IST" name="verifyLogin" finished-at="2025-08-14T17:52:00 IST" duration-ms="179" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.testng.task.TaskOrangeHRM@245b4bdc]" started-at="2025-08-29T17:40:15 IST" name="verifyLogin" finished-at="2025-08-29T17:40:18 IST" duration-ms="2593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.basics.Groups@222545dc]" started-at="2025-08-14T17:52:00 IST" name="teardown" finished-at="2025-08-14T17:52:00 IST" duration-ms="282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.testng.basics.Groups -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.testng.task.TaskOrangeHRM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
